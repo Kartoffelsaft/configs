@@ -1,0 +1,52 @@
+* {
+    font: "Iosevka Mono Light 24";
+    background-color: #0a0a0a55;
+    text-color: #a0a0a0;
+}
+
+window {
+    padding: 3px;
+    border: 1px;
+    border-radius: 3px;
+    border-color: #2a2a2a;
+    width: 500;
+    transparency: "screenshot";
+}
+
+mainbox {
+    foreground-color: #00000000;
+}
+
+entry {
+    font: "Iosevka Mono 24";
+    background-color: #1010101a;
+    text-color: #ffffff;
+    horizontal-align: 0.5;
+}
+
+case-indicator {
+    enabled: false;
+}
+
+prompt {
+    enabled: false;
+}
+
+listview {
+    lines: 5;
+}
+
+element {
+    horizontal-align: 0.5;
+    border: 1px;
+    border-radius: 9px;
+}
+
+element selected {
+    text-color: #ffffff;
+}
+
+configuration {
+	terminal: "konsole";
+	hide-scrollbar: true;
+}
